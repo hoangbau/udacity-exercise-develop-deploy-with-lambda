@@ -30,7 +30,7 @@ npm audit fix
 Update CERTIFICATE in **./server/src/lambda/auth/auth0Authorizer**
 Get CERTIFICATE:
 ![Alt text](screenshots/oauth2.png)
-## 3. Deploy
+## 3. Deployment
  ```console
 # For the first time, create an application in your org in Serverless portal
 serverless
