@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Ivan Mushketyk",
+  "author": "HoangBau38",
   "license": "ISC",
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.454.0",
@@ -23,7 +23,9 @@
     "http-errors": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
     "uuid": "^9.0.0",
-    "winston": "^3.8.2"
+    "winston": "^3.8.2",
+    "serverless-plugin-tracing": "^2.0.0",
+    "serverless-reqvalidator-plugin": "^3.1.0"
   },
   "devDependencies": {
     "serverless-aws-documentation": "^1.1.0",
