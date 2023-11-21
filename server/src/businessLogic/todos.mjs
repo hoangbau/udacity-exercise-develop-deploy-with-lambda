@@ -1,6 +1,6 @@
 import * as uuid from "uuid";
 
-import { TodoAccess } from "../dataLayer/todosAccess.mjs";
+import { TodoAccess } from "../dataAccess/todosAccess.mjs";
 import {
   getUploadUrl,
   getAttachmentUrl,

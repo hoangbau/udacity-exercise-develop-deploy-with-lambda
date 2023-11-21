@@ -69,7 +69,7 @@ async function verifyToken(authHeader) {
 
   // TODO: Implement token verification
   jsonwebtoken.verify(token, certificate, { algorithms: ["RS256"] });
-  return undefined;
+  return jwt;
 }
 
 function getToken(authHeader) {

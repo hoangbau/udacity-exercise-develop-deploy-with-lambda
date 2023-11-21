@@ -4,7 +4,7 @@ import { DynamoDB } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocument } from "@aws-sdk/lib-dynamodb";
 
 
-const logger = createLogger("dataLayer/todosAccess.mjs");
+const logger = createLogger("dataAccess/todosAccess.mjs");
 
 export class TodoAccess {
   constructor(
